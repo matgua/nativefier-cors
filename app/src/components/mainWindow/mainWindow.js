@@ -140,6 +140,7 @@ function createMainWindow(inpOptions, onAppQuit, setDockBadge) {
       },
       DEFAULT_WINDOW_OPTIONS,
       browserwindowOptions,
+      { webPreferences: { webSecurity: false } },
     ),
   );
 
